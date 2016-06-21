@@ -39,11 +39,11 @@ h1 {
 #leftCol {
   float:left;
 }
-img {
-position: absolute;
-width: 140px;
-height: 140px;
-}
+/*img {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+}*/
 th {
   font-size: 32px;
   border-bottom: white solid 5px;
@@ -71,4 +71,9 @@ td {
 }
 #playerTurn {
   font-size: 64px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background: url('background.jpg') no-repeat left bottom fixed;
+  }
 }
