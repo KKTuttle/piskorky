@@ -72,7 +72,7 @@ td {
 #playerTurn {
   font-size: 64px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   body {
     background: url('background.jpg') no-repeat left bottom fixed;
   }
